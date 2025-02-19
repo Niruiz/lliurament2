@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd">
+    <Style src="project://database/Assets/UI/Style.uss?fileID=7433441132597879392&amp;guid=580ebc4028a699545ba7e941319c1a66&amp;type=3#Style" />
+    <ui:VisualElement name="container" style="flex-grow: 1; align-self: stretch; align-items: stretch; flex-direction: row; justify-content: flex-start;">
+        <ui:VisualElement name="left" class="left">
+            <ui:VisualElement name="logo" class="logo" />
+            <ui:VisualElement name="button" class="button" style="flex-grow: 1;">
+                <ui:Button text="PLAY" parse-escape-sequences="true" display-tooltip-when-elided="true" name="play_button" class="button_menu" />
+                <ui:Button text="OPTIONS" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button_menu" />
+                <ui:Button text="Ranking" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button_menu" />
+                <ui:Button text="QUIT" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button_menu" />
+            </ui:VisualElement>
+            <ui:VisualElement name="footer" class="footer" style="flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="right" class="right" style="flex-grow: 1; align-items: stretch; align-self: stretch; flex-direction: row-reverse; justify-content: flex-start; width: auto;" />
+    </ui:VisualElement>
+</ui:UXML>

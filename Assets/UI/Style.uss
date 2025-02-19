@@ -1,0 +1,64 @@
+VisualElement {
+}
+
+.container {
+}
+
+.left {
+    width: auto;
+    max-width: 400px;
+    min-width: 300px;
+    max-height: none;
+    min-height: auto;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.right {
+    background-color: rgb(168, 39, 130);
+}
+
+.logo {
+    width: 80%;
+    height: 20%;
+    margin-top: 10%;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    align-self: center;
+    justify-content: center;
+    align-items: auto;
+    background-image: url("project://database/Assets/img/poison%20snows.png?fileID=21300000&guid=c89a21c42d4f6f645b1e3555ad31302f&type=3#poison snows");
+}
+
+.button {
+}
+
+.footer {
+}
+
+.button_menu {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.button_menu:hover {
+    color: rgba(255, 255, 255, 0.95);
+    background-color: rgb(204, 0, 0);
+    width: 110%;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    transition-property: all, ignored;
+    transition-duration: 0s, 0s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
+}
